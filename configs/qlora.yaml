@@ -1,0 +1,26 @@
+# Configuration for QLoRA Fine-Tuning (4-bit Quantized Base)
+# Model: 4-bit Quantized Qwen2.5-1.5B-Instruct with LoRA adapters
+
+model: "models/Qwen2.5-1.5B-Instruct-4bit"
+train: true
+data: "data/processed"
+fine_tune_type: "lora"
+optimizer: "adamw"
+mask_prompt: true
+num_layers: 16
+batch_size: 4
+grad_accumulation_steps: 2
+iters: 1000
+learning_rate: 1.0e-4
+max_seq_length: 512
+grad_checkpoint: false
+lora_parameters:
+  rank: 16
+  scale: 32.0
+  dropout: 0.05
+adapter_path: "checkpoints/qlora"
+save_every: 200
+steps_per_report: 10
+steps_per_eval: 100
+val_batches: 50
+seed: 42

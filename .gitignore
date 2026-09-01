@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Data
+data/raw/
+
+# Models / checkpoints
+models/
+outputs/
+checkpoints/
+
+# MLX / training artifacts
+*.safetensors
+*.gguf
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/

@@ -1,0 +1,26 @@
+{
+  "train": {
+    "total_sentences": 14041,
+    "persons": 6600,
+    "organizations": 6321,
+    "locations": 7140,
+    "misc": 3438,
+    "sentences_with_zero_entities": 2909
+  },
+  "valid": {
+    "total_sentences": 3250,
+    "persons": 1842,
+    "organizations": 1341,
+    "locations": 1837,
+    "misc": 922,
+    "sentences_with_zero_entities": 645
+  },
+  "test": {
+    "total_sentences": 3453,
+    "persons": 1617,
+    "organizations": 1661,
+    "locations": 1668,
+    "misc": 702,
+    "sentences_with_zero_entities": 697
+  }
+}

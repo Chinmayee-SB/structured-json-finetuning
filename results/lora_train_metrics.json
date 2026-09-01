@@ -1,0 +1,14 @@
+{
+  "config_file": "configs/lora.yaml",
+  "fine_tune_type": "lora",
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "iterations": 1000,
+  "batch_size": 4,
+  "learning_rate": 0.0001,
+  "wall_clock_time_sec": 13164.31,
+  "wall_clock_time_min": 219.41,
+  "checkpoint_path": "checkpoints/lora",
+  "checkpoint_size_mb": 241.64,
+  "final_train_loss": null,
+  "final_val_loss": null
+}
