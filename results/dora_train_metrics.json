@@ -1,0 +1,14 @@
+{
+  "config_file": "configs/dora.yaml",
+  "fine_tune_type": "dora",
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "iterations": 1000,
+  "batch_size": 4,
+  "learning_rate": 0.0001,
+  "wall_clock_time_sec": 2406.08,
+  "wall_clock_time_min": 40.1,
+  "checkpoint_path": "checkpoints/dora",
+  "checkpoint_size_mb": 250.14,
+  "final_train_loss": null,
+  "final_val_loss": null
+}
