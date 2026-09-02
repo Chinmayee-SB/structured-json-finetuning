@@ -1,0 +1,65 @@
+{
+  "model_path": "models/Qwen2.5-1.5B-Instruct-4bit",
+  "adapter_path": "checkpoints/qlora",
+  "test_samples_evaluated": 3453,
+  "json_schema_validity_rate": 0.9991,
+  "valid_json_count": 3450,
+  "invalid_json_count": 3,
+  "total_eval_time_sec": 1848.48,
+  "samples_per_second": 1.87,
+  "micro_metrics": {
+    "precision": 0.8233,
+    "recall": 0.782,
+    "f1": 0.8021,
+    "tp": 4417,
+    "fp": 948,
+    "fn": 1231
+  },
+  "macro_metrics": {
+    "precision": 0.7974,
+    "recall": 0.7649,
+    "f1": 0.7776
+  },
+  "per_category_metrics": {
+    "persons": {
+      "precision": 0.9123,
+      "recall": 0.8683,
+      "f1": 0.8897,
+      "tp": 1404,
+      "fp": 135,
+      "fn": 213,
+      "gold_count": 1617,
+      "pred_count": 1539
+    },
+    "organizations": {
+      "precision": 0.8747,
+      "recall": 0.6851,
+      "f1": 0.7684,
+      "tp": 1138,
+      "fp": 163,
+      "fn": 523,
+      "gold_count": 1661,
+      "pred_count": 1301
+    },
+    "locations": {
+      "precision": 0.8092,
+      "recall": 0.8465,
+      "f1": 0.8274,
+      "tp": 1412,
+      "fp": 333,
+      "fn": 256,
+      "gold_count": 1668,
+      "pred_count": 1745
+    },
+    "misc": {
+      "precision": 0.5936,
+      "recall": 0.6595,
+      "f1": 0.6248,
+      "tp": 463,
+      "fp": 317,
+      "fn": 239,
+      "gold_count": 702,
+      "pred_count": 780
+    }
+  }
+}

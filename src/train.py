@@ -52,7 +52,8 @@ def quantize_base_model_if_needed(
     cmd = [
         sys.executable,
         "-m",
-        "mlx_lm.convert",
+        "mlx_lm",
+        "convert",
         "--hf-path",
         source_model,
         "-q",
